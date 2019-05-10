@@ -30,3 +30,10 @@ for word in user_input:
 result.sort()
 print("\nHere is your new sorted string: ")
 print(" ".join(result))
+
+
+""" 
+FASTER WAY -  but does not look clean:
+user_input = input().split(" ")
+print(" ".join(sorted(list(set(user_input)))))
+"""
